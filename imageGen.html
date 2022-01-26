@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>My coupon Gen</title>
+<link rel="icon" type="image/x-icon" href="./favicon.png">
+
+
+</head>
+
+<body>
+
+<script>
+
+function myFunction(){
+ var inp = document.getElementById("fname").value;
+ document.getElementById("code").innerHTML = inp;
+ document.getElementById("css").innerHTML = inp;
+	}
+</script>
+
+
+
+
+<div style="position: absolute;top: 215px;left: 145px;color: rgb(212, 98, 168);text-decoration: none;font-family: sans-serif;font-size: x-large;font-stretch: expanded;font-weight: 900;" id="code">Code</div>
+
+Please enter coupun code &nbsp&nbsp  : &nbsp&nbsp   <input type="text" id="fname" name="fname">  <br><br>
+
+<input type="button" onclick="myFunction()" value="Generate"><br><br>
+
+<br>
+<a href="/images/myw3schoolsimage.jpg">
+  <img src="./coupon.png" alt="Flat 50 bonus coupon" width="500" height="234">
+</a>
+<br><br>
+
+Message: <br>
+<p style="height: 100px;width: 500px;">
+Use code : <b><label id="css">code</label></b> to receive <b>FLAT Rs.50/- bonus</b> on all transcations made by you or your friends in our Store <a href="https://www.instagram.com/maalakshmi_girlsdresses/">Maa Lakshmi Girls Dresses</a>. Hurry up!!! Offer expires soon...
+
+<p>
+
+
+</body>
+</html>
